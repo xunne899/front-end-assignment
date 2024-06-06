@@ -1,0 +1,20 @@
+/* Base styles */
+
+/* Overall set margin, padding to 0 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Image styling */
+img {
+    width: 100vw;
+    height: auto;
+}
+
+/* Remove white spaces between images using font size on parent */
+header, section, footer {
+    font-size: 0;
+}
+
+
