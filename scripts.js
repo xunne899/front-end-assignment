@@ -8,7 +8,7 @@ function switchImages() {
     const dontMissImg = document.getElementById('dont-miss-img');
     const hereToHelpImg = document.getElementById('here-to-help-img');
     const footerImg = document.getElementById('footer-img');
-//mobile  max-width < 320
+    //mobile  <=320
     if (window.innerWidth <= 320) {
         bannerImg.src = 'images/mobile/nav_banner.jpg';
         creativeImg.src = 'images/mobile/get_creative.jpg';
@@ -19,7 +19,8 @@ function switchImages() {
         dontMissImg.src = 'images/mobile/dont_miss.jpg';
         hereToHelpImg.src = 'images/mobile/here_to_help.jpg';
         footerImg.src = 'images/mobile/footer.jpg';
-//desktop  > 320
+        //tablet =>321 && <=768
+        //desktop =>769
     } else {
         bannerImg.src = 'images/desktop/banner_content.jpg';
         creativeImg.src = 'images/desktop/get_creative.jpg';

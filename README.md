@@ -5,7 +5,7 @@
 #### Mobile ####
 <img src="./images/mobile.jpg" alt="drawing" style="width:300px;"/>
 
- #### Desktop ####
+ #### Tablet/Desktop ####
 <img src="./images/desktop.jpg" alt="drawing" style="width:600px;"/>
 
 ### Github Repository
