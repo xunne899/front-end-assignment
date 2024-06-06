@@ -22,7 +22,7 @@ function switchImages() {
         dontMissImg.src = 'images/mobile/dont_miss.jpg';
         hereToHelpImg.src = 'images/mobile/here_to_help.jpg';
         footerImg.src = 'images/mobile/footer.jpg';
-    }else {
+    } else {
         //tablet 
         //desktop 
         bannerImg.src = 'images/desktop/banner_content.jpg';
