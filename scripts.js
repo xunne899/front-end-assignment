@@ -9,9 +9,9 @@ function switchImages() {
     const hereToHelpImg = document.getElementById('here-to-help-img');
     const footerImg = document.getElementById('footer-img');
 
-    const isMobile = window.matchMedia("(max-width: 767px)").matches;
+    const isMobile = window.matchMedia("(max-width: 480px)").matches;
 
-    //mobile  <=320
+    //mobile  <=480
     if (isMobile) {
         bannerImg.src = 'images/mobile/nav_banner.jpg';
         creativeImg.src = 'images/mobile/get_creative.jpg';
@@ -22,9 +22,9 @@ function switchImages() {
         dontMissImg.src = 'images/mobile/dont_miss.jpg';
         hereToHelpImg.src = 'images/mobile/here_to_help.jpg';
         footerImg.src = 'images/mobile/footer.jpg';
-        //tablet =>321 && <=768
-        //desktop =>769
-    } else {
+    }else {
+        //tablet 
+        //desktop 
         bannerImg.src = 'images/desktop/banner_content.jpg';
         creativeImg.src = 'images/desktop/get_creative.jpg';
         storiesImg.src = 'images/desktop/stories_singapore.jpg';
@@ -44,5 +44,6 @@ switchImages();
 window.addEventListener('resize', switchImages);
 
 // Use matchMedia to detect changes in screen size
-const mediaQuery = window.matchMedia('(max-width: 767px)');
-mediaQuery.addListener(switchImages);
+const mediaQuery = window.matchMedia('(max-width: 480px)');
+
+mediaQuery.addEventListener('change', switchImages);
