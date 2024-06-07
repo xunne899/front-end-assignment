@@ -27,3 +27,4 @@
 - CSS - font design layout of the webpage
 - Javascript - enable website to be responsive to different screen sizes (desktop, tablet, mobile)
 - VS Code - Platform to host & implement HTML, CSS, Javascript code 
+- Github - Project work was uploaded to github
