@@ -16,9 +16,7 @@
 
 # Summary
 
-A singapore front end website assignment. Technologies like HTML, CSS & Javascript were used. Using GIMP to change some text, font, layout design according to client request for Singapore webpage. Also GIMP was used to slice PSD files into various images & incorporated into singapore website. The web will be responsive according to desktop, tablet, mobile screensize. Javascript function was used to enable smooth transition from desktop to tablet & mobile view without refreshing.
-mediaQuery.addEventListener was used to ensure that the function is called when the screen size changes, which is supported by Firefox and other browsers.
-Tags - eg. header, body, main, section, footer were used
+For a Singapore-based website assignment, HTML, CSS, and JavaScript were utilized. GIMP was used to modify text, fonts, and layout design per the client's requests, and to slice PSD files into various images which were then integrated into the website. The site was designed to be responsive, adapting seamlessly to desktop, tablet, and mobile screen sizes. JavaScript functions were implemented to ensure smooth transitions between these views without refreshing the page. The mediaQuery.addEventListener method was used to handle screen size changes, supporting browsers like Firefox and other browsers. Semantic HTML tags such as header, body, main, section, and footer were incorporated throughout the site.
 
 - Mobile (max-width:480px)
 
