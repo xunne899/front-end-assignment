@@ -25,4 +25,4 @@
 - GIMP - slicing, making changes to content requested by clients
 - HTML - layout content of the desktop webpage
 - CSS - font design layout of the webpage
-- Javascript - to make the website responsive to different screensize (desktop, tablet, mobile)
+- Javascript - enable website responsive to different screensize (desktop, tablet, mobile)
